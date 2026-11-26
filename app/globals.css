@@ -1,0 +1,283 @@
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:90px}body{margin:0;background:#fff8fa;color:#261a24;font-family:Arial,sans-serif;font-size:15px}button,input,select{font:inherit}button,a{-webkit-tap-highlight-color:transparent}button{cursor:pointer}a{color:inherit;text-decoration:none}button{border:0;background:none;color:inherit}header{position:sticky;top:0;z-index:10;background:#fff4f7ed;backdrop-filter:blur(12px);display:flex;align-items:center;justify-content:space-between;padding:18px max(24px,calc((100vw - 1200px)/2));gap:24px;border-bottom:1px solid #f3e2e8}.brand{display:flex;align-items:center;gap:8px;font-size:22px;font-weight:800;white-space:nowrap;line-height:1}.brand svg{color:#df2376}.brand small{display:block;font-size:9px;letter-spacing:1.6px;margin-top:6px}nav{display:flex;gap:24px;font-size:13px;font-weight:600}nav a:hover,.link:hover{color:#d51064}.actions{display:flex;gap:8px}.actions button{position:relative;padding:5px}.actions svg{width:20px}.actions sup{position:absolute;right:-3px;top:-5px;background:#d51064;color:white;border-radius:20px;padding:2px 5px}.search{display:flex;max-width:1200px;margin:12px auto;padding:0 20px}.search input{flex:1}main{max-width:1240px;margin:auto;padding:0 22px 28px}section{margin:38px 0}.eyebrow{font-size:10px;font-weight:bold;letter-spacing:2px;color:#a02a65}h1,h2{font-family:Georgia,serif;line-height:1.12;margin:0 0 15px}h1{font-size:clamp(44px,5.6vw,80px);letter-spacing:-2px}em{font-style:normal;color:#a91b6d}h2{font-size:clamp(24px,3vw,36px)}p{line-height:1.55;margin:0 0 20px}.hero p{max-width:360px;font-size:19px}.primary{display:inline-flex;align-items:center;justify-content:center;gap:10px;background:#d51165;color:white;border:0;border-radius:7px;padding:13px 22px;font-weight:700;font-size:13px}.primary:hover{background:#a40d50}.plum{background:#791755}.perks,.quick{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;padding:24px 8px}.perks>div{display:flex;align-items:center;justify-content:center;gap:12px}.perks svg,.booking svg,.quick svg,.mini svg{color:#a62a70;flex-shrink:0}.perks small{display:block;font-size:11px;margin-top:5px;color:#6d5a65}.perks b{font-size:13px}.sectionhead{display:flex;justify-content:space-between;align-items:center;margin-bottom:18px}.sectionhead h2{margin:0}.link{display:inline-flex;align-items:center;gap:5px;color:#9b1d61;font-size:12px;font-weight:700;white-space:nowrap}.cards{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}.item,.reviews article{background:white;border-radius:12px;overflow:hidden;box-shadow:0 4px 14px #5f244409}.photo{position:relative;aspect-ratio:1.16;overflow:hidden}.photo img{width:100%;height:100%;object-fit:cover;display:block}.tag{position:absolute;top:9px;left:9px;background:#d81169;color:white;font-size:11px;border-radius:4px;padding:5px 9px;font-weight:700}.tag.popular{background:#df9a18}.tag.new{background:#008657}.itembody{padding:16px}.item h3,.item p{font-size:13px;color:#6b5964;margin:0 0 10px;min-height:40px}.muted{font-size:11px;color:#796a74}.price{display:flex;align-items:center;justify-content:space-between;margin-top:12px;color:#9c175e}.price button{background:#fce8f1;border-radius:50%;padding:8px;display:grid;place-items:center}.mini{display:flex;justify-content:space-between;gap:12px;margin:22px 0}.mini span{display:flex;align-items:center;flex-direction:column;text-align:center;gap:9px;font-size:11px;font-weight:600;flex:1}.offer{display:flex;align-items:center;justify-content:space-between;background:radial-gradient(ellipse at right,#94205f,#2b0d36 70%);color:white;padding:30px 36px;border-radius:14px;overflow:hidden}.offer h2{margin-top:10px}.offerflower{font-size:120px;color:#ff72ad;line-height:1}.reviews{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.reviews article{padding:22px}.reviews article>span{color:#a51a68;font: bold 40px Georgia;line-height:.7}.reviews p{font-size:13px}.reviews small{color:#9c175e}.quick{background:white;border-radius:12px}.quick button{display:grid;place-items:center;gap:10px;border-right:1px solid #f2e2e9;font-size:13px}.quick button:last-child{border:0}.quick svg{width:30px;height:30px}.promise{padding:25px;background:#fff0f5;border-radius:12px}.bottom{grid-template-columns:repeat(3,1fr);font-size:12px;text-align:center}footer{background:#f9eef3;display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:30px;padding:40px max(24px,calc((100vw - 1200px)/2));font-size:13px}footer h3{margin:0 0 12px}footer p{margin-top:14px;color:#6e5b66}footer>div>a:not(.brand),footer>div>button{display:block;padding:5px 0;text-transform:capitalize}.copyright{grid-column:1/-1;border-top:1px solid #ead7e2;padding-top:15px;color:#7d6673}.overlay{position:fixed;inset:0;background:#210d20a0;display:grid;place-items:center;z-index:100;padding:20px}.dialog{position:relative;background:white;padding:32px;border-radius:16px;width:min(100%,440px);max-height:90vh;overflow:auto}.close{position:absolute;top:8px;right:8px}.dialog form{display:grid;gap:12px}.dialog input,.dialog select,.search input{padding:12px;border:1px solid #e7d3df;border-radius:6px;background:white}.bagrow{display:flex;justify-content:space-between;padding:12px 0;border-bottom:1px solid #eee}.bagrow button{color:#a91b6d}@media(min-width:900px){.actions button:last-child{display:none}}@media(max-width:899px){header{padding:14px 20px}nav{display:none;position:absolute;top:100%;left:0;right:0;background:#fff5f9;padding:24px;flex-direction:column}nav.open{display:flex}.cards{gap:12px}.itembody{padding:12px}.perks{grid-template-columns:repeat(2,1fr)}.perks>div{justify-content:flex-start}footer{grid-template-columns:repeat(2,1fr)}}@media(max-width:560px){main{padding:0 14px 15px}.brand{font-size:17px}.brand svg{width:30px}.brand small{font-size:7px;letter-spacing:.7px}header{gap:8px;padding:13px}.actions{gap:2px}.hero p{font-size:13px}.hero .eyebrow{font-size:8px;letter-spacing:.5px}.primary{padding:11px 13px;font-size:11px}.cards{grid-template-columns:repeat(2,1fr)}.item h3{font-size:15px}.reviews{grid-template-columns:1fr}.quick{grid-template-columns:repeat(2,1fr)}.offer{padding:22px}.offerflower{font-size:65px}.perks b{font-size:11px}.perks small{font-size:10px}.mini{gap:5px}.mini span{font-size:9px}.bottom{grid-template-columns:1fr}section{margin:28px 0}footer{gap:16px;padding:25px 14px}.sectionhead h2{font-size:25px}}
+
+.hero {
+  display: grid;
+  align-items: center;
+  min-height: 480px;
+  margin: 0 -22px;
+  padding: 48px clamp(24px, 5vw, 72px);
+  background: linear-gradient(90deg, #fff1f5ed, #fff1f5bb 37%, #fff1f500 65%),
+    #f9dce7 url('/images/hero-background.webp') right center / cover no-repeat;
+}
+.hero > div {
+  max-width: 58%;
+}
+.hero h1 {
+  font-size: clamp(38px, 5.2vw, 72px);
+}
+@media (max-width: 899px) {
+  .hero {
+    min-height: 385px;
+  }
+}
+@media (max-width: 620px) {
+  .hero {
+    margin: 0;
+    padding: 210px 20px 28px;
+    border-radius: 0 0 16px 16px;
+    background:
+      linear-gradient(180deg, #fff1f500 140px, #fff1f5 235px),
+      #fff1f5 url('/images/hero-background.webp') right top / auto 240px no-repeat;
+  }
+  .hero > div {
+    max-width: none;
+  }
+  .hero h1 {
+    font-size: clamp(34px, 8vw, 46px);
+    letter-spacing: -1px;
+  }
+}
+
+.about {
+  display: grid;
+  align-items: center;
+  min-height: 420px;
+  padding: 36px clamp(24px, 4vw, 56px);
+  border-radius: 16px;
+  background:
+    linear-gradient(90deg, #fff0f5 49%, #fff0f500 67%),
+    url('/images/about-skin-care.webp') right center / auto 100% no-repeat #fff0f5;
+}
+.about > div {
+  max-width: 53%;
+}
+@media (max-width: 760px) {
+  .about {
+    padding: 250px 20px 26px;
+    background:
+      linear-gradient(180deg, #fff0f500 190px, #fff0f5 265px),
+      url('/images/about-skin-care.webp') center top / 100% auto no-repeat #fff0f5;
+  }
+  .about > div {
+    max-width: none;
+  }
+}
+
+.selfcare {
+  display: grid;
+  align-items: center;
+  min-height: 360px;
+  padding: 36px clamp(24px, 4vw, 56px);
+  border-radius: 16px;
+  background:
+    linear-gradient(90deg, #fff0f5ed, #fff0f5bb 40%, #fff0f500 65%),
+    #fff0f5 url('/images/selfcare-background.webp') right center / cover no-repeat;
+}
+.selfcare > div {
+  max-width: min(48%, 430px);
+}
+@media (max-width: 760px) {
+  .selfcare {
+    padding: 225px 20px 26px;
+    background:
+      linear-gradient(180deg, #fff0f500 155px, #fff0f5 250px),
+      #fff0f5 url('/images/selfcare-background.webp') right top / auto max(255px, 40vw) no-repeat;
+  }
+  .selfcare > div {
+    max-width: none;
+  }
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 18px;
+}
+.gallery figure {
+  margin: 0;
+  overflow: hidden;
+  border-radius: 14px;
+  background: #fff0f5;
+}
+.gallery img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+}
+@media (min-width: 900px) and (max-width: 1050px) {
+  header nav {
+    gap: 14px;
+  }
+}
+@media (max-width: 560px) {
+  .gallery {
+    grid-template-columns: 1fr;
+    gap: 14px;
+  }
+}
+
+.whatsapp-chat {
+  position: fixed;
+  z-index: 9;
+  right: 18px;
+  bottom: max(18px, env(safe-area-inset-bottom));
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 16px;
+  border-radius: 999px;
+  background: #116b46;
+  color: white;
+  font-weight: 700;
+  box-shadow: 0 4px 16px #154e3740;
+}
+.whatsapp-chat:hover {
+  background: #0c5235;
+}
+
+.salon-contact {
+  display: grid;
+  gap: 8px;
+  margin-bottom: 14px;
+  font-style: normal;
+  line-height: 1.5;
+}
+.salon-contact a:hover {
+  text-decoration: underline;
+}
+
+.booking {
+  display: grid;
+  grid-template-columns: minmax(0, 1.5fr) repeat(2, minmax(0, 1fr)) auto;
+  align-items: end;
+  gap: 16px;
+  padding: clamp(16px, 3vw, 32px);
+  margin: 8px 0 40px;
+  border: 1px solid #f1dce6;
+  border-radius: 18px;
+  background: #fff;
+  box-shadow: 0 8px 28px #6f16450d;
+}
+.booking h2 {
+  grid-column: 1 / -1;
+  margin: 0;
+}
+.booking label {
+  display: flex;
+  align-items: flex-end;
+  gap: 8px;
+  min-width: 0;
+  font-size: 13px;
+  font-weight: 700;
+}
+.booking label > svg {
+  width: 18px;
+  height: 18px;
+  margin-bottom: 13px;
+}
+.booking label span {
+  flex: 1;
+  min-width: 0;
+}
+.booking input, .booking select {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  min-width: 0;
+  min-height: 44px;
+  margin-top: 6px;
+  padding: 8px;
+  border: 1px solid #e7d3df;
+  border-radius: 8px;
+  background: #fff8fa;
+  color: #261a24;
+  font-size: 16px;
+  font-weight: 400;
+}
+.booking :is(input, select, button):focus-visible {
+  outline: 2px solid #a91b6d;
+  outline-offset: 2px;
+}
+.booking > .primary {
+  min-height: 44px;
+  font-size: 14px;
+}
+@media (max-width: 760px) {
+  .booking {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 14px 10px;
+  }
+  .booking label:first-of-type, .booking > .primary {
+    grid-column: 1 / -1;
+  }
+}
+@media (max-width: 420px) {
+  .booking label > svg {
+    display: none;
+  }
+  .dialog :is(input, select) {
+    font-size: 16px;
+  }
+}
+
+.video-gallery {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 18px;
+}
+.video-gallery video {
+  display: block;
+  width: 100%;
+  aspect-ratio: 9 / 16;
+  object-fit: contain;
+  border-radius: 14px;
+  background: #261a24;
+}
+@media (max-width: 899px) {
+  .video-gallery {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 14px;
+  }
+}
+@media (max-width: 480px) {
+  .video-gallery {
+    grid-template-columns: minmax(0, 360px);
+    justify-content: center;
+  }
+}
+
+.whatsapp-chat::after {
+  position: absolute;
+  inset: 0;
+  border: 2px solid #168454;
+  border-radius: inherit;
+  content: '';
+  opacity: 0;
+  pointer-events: none;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .whatsapp-chat::after {
+    animation: whatsapp-wave 2.6s ease-out infinite;
+  }
+  .whatsapp-chat:is(:hover, :focus-visible)::after {
+    animation: none;
+  }
+}
+@keyframes whatsapp-wave {
+  0% { transform: scale(1); opacity: .55; }
+  65%, 100% { transform: scale(1.18, 1.48); opacity: 0; }
+}
+
+.brand-mark {
+  display: block;
+  flex-shrink: 0;
+  object-fit: contain;
+}
+@media (max-width: 560px) {
+  .brand-mark {
+    width: 32px;
+    height: 32px;
+  }
+}
